@@ -1,3 +1,10 @@
+brew-meta-dev (1.0.1) unstable; urgency=medium
+
+  * +c,+python,+mono,+html
+  * +c,+python,+mono,+html
+
+ -- c00clupea <c00clupea@gmail.com>  Wed, 13 Jan 2016 17:16:04 +0100
+
 brew-meta-dev (1.0.0) unstable; urgency=low
 
   * Initial Release.
