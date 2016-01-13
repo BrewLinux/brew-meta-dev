@@ -20,17 +20,53 @@ Package: brew-meta-dev-all
 Architecture: all
 Depends: brew-meta-dev,
 	 brew-meta-dev-java,
+	 brew-meta-dev-c,
+ 	 brew-meta-dev-python,
+ 	 brew-meta-dev-mono,
+	 brew-meta-dev-web,
+	 brew-nodejs,
 	 ${shlibs:Depends}, ${misc:Depends}
 Description: All dev packages
  Install every development tool
 
 Package: brew-meta-dev-java
 Architecture: all
-Depends: default-jdk|brew-java|brew-java-8,
+Depends: brew-java|brew-java-8,
 	 eclipse,
 	 visualvm,
 	 brew-meta-dev,
 	 ${shlibs:Depends}, ${misc:Depends}
-Description: Base package for development
- Provides some tools which are language independent
+Description: package for java development
+ Provides some tools for java programming
 
+Package: brew-meta-dev-c
+Architecture: all
+Depends: brew-c,
+	 anjuta,
+	 devhelp,
+	 ${misc:Depends}
+Description: package for c-development
+ Provides some tools for c programming
+
+Package: brew-meta-dev-python
+Architecture: all
+Depends: brew-python,
+	 anjuta,
+	 ${misc:Depends}
+Description: package for python-development
+ Provides some tools for python programming
+
+Package: brew-meta-dev-mono
+Architecture: all
+Depends: brew-mono,
+	 mono-develop,
+	 ${misc:Depends}
+Description: package for mono-development
+ Provides some tools for mono programming
+
+Package: brew-meta-dev-web
+Architecture: all
+Depends: bluefish,
+	 ${misc:Depends}
+Description: package for web-development
+ Provides some tools for web programming

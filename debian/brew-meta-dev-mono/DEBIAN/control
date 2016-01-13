@@ -1,0 +1,12 @@
+Package: brew-meta-dev-mono
+Source: brew-meta-dev
+Version: 1.0.0
+Architecture: all
+Maintainer: c00clupea <c00clupea@gmail.com>
+Installed-Size: 26
+Depends: brew-mono, mono-develop
+Section: metapackages
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: package for mono-development
+ Provides some tools for mono programming

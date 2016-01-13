@@ -1,0 +1,7 @@
+brew-meta-dev_1.0.0_all.deb metapackages optional
+brew-meta-dev-all_1.0.0_all.deb metapackages optional
+brew-meta-dev-java_1.0.0_all.deb metapackages optional
+brew-meta-dev-c_1.0.0_all.deb metapackages optional
+brew-meta-dev-python_1.0.0_all.deb metapackages optional
+brew-meta-dev-mono_1.0.0_all.deb metapackages optional
+brew-meta-dev-web_1.0.0_all.deb metapackages optional
