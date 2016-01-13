@@ -1,0 +1,36 @@
+Source: brew-meta-dev
+Section: metapackages
+Priority: optional
+Maintainer: c00clupea <c00clupea@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: https://github.com/BrewLinux/brew-meta-dev.git
+Vcs-Browser: https://github.com/BrewLinux/brew-meta-dev.git
+
+Package: brew-meta-dev
+Architecture: all
+Depends: brew-vcs,
+	 brew-editors,
+	 ${shlibs:Depends}, ${misc:Depends}
+Description: Base package for development
+ Provides some tools which are language independent
+
+Package: brew-meta-dev-all
+Architecture: all
+Depends: brew-meta-dev,
+	 brew-meta-dev-java,
+	 ${shlibs:Depends}, ${misc:Depends}
+Description: All dev packages
+ Install every development tool
+
+Package: brew-meta-dev-java
+Architecture: all
+Depends: default-jdk|brew-java|brew-java-8,
+	 eclipse,
+	 visualvm,
+	 brew-meta-dev,
+	 ${shlibs:Depends}, ${misc:Depends}
+Description: Base package for development
+ Provides some tools which are language independent
+
