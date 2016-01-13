@@ -59,7 +59,7 @@ Description: package for python-development
 Package: brew-meta-dev-mono
 Architecture: all
 Depends: brew-mono,
-	 mono-develop,
+	 monodevelop,
 	 ${misc:Depends}
 Description: package for mono-development
  Provides some tools for mono programming
