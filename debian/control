@@ -70,3 +70,10 @@ Depends: bluefish,
 	 ${misc:Depends}
 Description: package for web-development
  Provides some tools for web programming
+
+Package: brew-meta-dev-haskell
+Architecture: all
+Depends: haskell-platform,
+	 ${misc:Depends}
+Description: package for haskell-development
+ Provides some tools for haskell programming
